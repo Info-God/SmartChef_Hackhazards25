@@ -1,238 +1,237 @@
-# 🚀 Impact DevOps
-**"Revolutionizing Restaurant Management with Real-Time Predictions and Smart Stocking"**
-- Linux (Ubuntu)
-## 📌 Problem Statement
-**Problem Statement – Reduce ingredients and vegetables wastage in restaurants**
+# 🚀 Impact DevOps  
+**"Revolutionizing Restaurant Management with Real-Time Predictions and Smart Stocking"**  
 
-## 🎯 Objective
-Our solution targets restaurant operations in 3-star and 4-star hotels. We aim to solve real-time stock prediction, cost optimization, and smart purchase planning by leveraging data-driven decision-making. By integrating real-time price predictions, market trends, and stock tracking, we help restaurants reduce wastage, increase profitability, and improve efficiency.
+---
 
-## 🧠 Team & Approach
+## 📌 Problem Statement  
+**Problem Statement – Reduce ingredients and vegetables wastage in restaurants**  
+
+---
+
+## 🎯 Objective  
+Our solution targets restaurant operations in 3-star and 4-star hotels. We aim to solve real-time stock prediction, cost optimization, and smart purchase planning by leveraging data-driven decision-making. By integrating real-time price predictions, market trends, and stock tracking, we help restaurants reduce wastage, increase profitability, and improve efficiency.  
+
+---
+
+## 🧠 Team & Approach  
 **Team Name:**  
-Impact DevOps
+Impact DevOps  
 
-**Team Members:**
-
-- Karunagaran Velmourougane
-- Leena
-- Sandhiya
-- Monesh
+**Team Members:**  
+- 👨‍💻 Karunagaran Velmourougane  
+- 👩‍💻 Leena  
+- 👩‍💻 Sandhiya  
+- 👨‍💻 Monesh  
 
 **Our Approach:**  
-We selected this problem because it aligns perfectly with the daily struggles of restaurant managers—balancing stock, sales, and purchasing efficiently. We tackled real-time prediction delivery, cross-tech integration (PHP, Python, JS), and reliable Fluvio streaming under one umbrella. Major pivots came from switching traditional REST to WebSockets for real-time UI, and integrating Prophet + Fluvio for high-accuracy forecasting.
+We selected this problem because it aligns perfectly with the daily struggles of restaurant managers—balancing stock, sales, and purchasing efficiently. We tackled real-time prediction delivery, cross-tech integration (PHP, Python, JS), and reliable Fluvio streaming under one umbrella. Major pivots came from switching traditional REST to WebSockets for real-time UI, and integrating Prophet + Fluvio for high-accuracy forecasting.  
 
-## 🛠️ Tech Stack
-**Core Technologies Used:**
+---
 
-- **Frontend:** JavaScript, React.js, WebSockets
-- **Backend:** PHP (CodeIgniter), Python (Flask + Prophet), Fluvio
-- **Database:** MySQL
-- **APIs:** Flask API for prediction, Fluvio for real-time streaming
-- **Hosting:** XAMPP (for PHP + MySQL), Localhost (Python + Flask)
+## 🛠️ Tech Stack  
+**Core Technologies Used:**  
+- **Frontend:** JavaScript, React.js, WebSockets  
+- **Backend:** PHP (CodeIgniter), Python (Flask + Prophet), Fluvio  
+- **Database:** MySQL  
+- **APIs:** Flask API for prediction, Fluvio for real-time streaming  
+- **Hosting:** XAMPP (for PHP + MySQL), Localhost (Python + Flask)  
 
-**Sponsor Technologies Used:**
+**Sponsor Technologies Used:**  
+- ✅ **Fluvio:** For real-time grain price prediction streaming  
 
-- ✅ **Fluvio:** For real-time grain price prediction streaming
-- **Stellar, Base, Groq, Monad, Screenpipe:** ❌ (not applicable)
+---
 
-## ✨ Key Features
-- ✅ Real-time grain price predictions using Prophet
-- ✅ WebSocket-powered live UI updates for stock and pricing
-- ✅ Hybrid architecture using PHP, Python, and React
-- ✅ Smart purchase suggestions based on predicted market trends
+## ✨ Key Features  
+- ✅ Real-time grain price predictions using Prophet  
+- ✅ WebSocket-powered live UI updates for stock and pricing  
+- ✅ Hybrid architecture using PHP, Python, and React  
+- ✅ Smart purchase suggestions based on predicted market trends  
 
-## 📽️ Demo & Deliverables
-**📑 Pitch Deck:** [Impact DevOps Presentation](https://gamma.app/docs/Impact-DevOps--3zuz4vua0zj47t8?mode=present)
+---
 
-## ✅ Tasks & Bonus Checklist
-- ✅ All members followed social channels & filled the form
-- ✅ Bonus Task 1 - Shared badges (2 points)
-- ✅ Bonus Task 2 - Signed up for Sprint.dev (3 points)
+## 📽️ Demo & Deliverables  
+- **📑 Pitch Deck:** [Impact DevOps Presentation](https://gamma.app/docs/Impact-DevOps--3zuz4vua0zj47t8?mode=present)  
+- **📺 How We Use Fluvio:** [Watch on YouTube](https://www.youtube.com/watch?v=kaXSQc5pchg)  
 
-## 🧪 How to Run the Project
+---
 
-**Requirements**  
-- Ubuntu/Linux (mandatory)
-- Python 3
-- Node.js
-- XAMPP (for PHP + MySQL)
-- Fluvio CLI
-- Git
+## ✅ Tasks & Bonus Checklist  
+- ✅ All members followed social channels & filled the form  
+- ✅ Bonus Task 1 - Shared badges (2 points)  
+- ✅ Bonus Task 2 - Signed up for Sprint.dev (3 points)  
 
-**Local Setup Instructions**
+---
 
-1️⃣ **Clone the Repository**
+## 🧪 How to Run the Project  
+
+### **Requirements**  
+- 🖥️ Ubuntu/Linux (mandatory)  
+- 🐍 Python 3  
+- 🟢 Node.js  
+- 🛠️ XAMPP (for PHP + MySQL)  
+- 🌐 Fluvio CLI  
+- 🧰 Git  
+
+---
+
+### **Local Setup Instructions**  
+
+1️⃣ **Clone the Repository**  
 ```bash
-git clone  the current repo 
-```
-2️⃣ **Frontend Setup (React)**
+git clone https://github.com/Info-God/SmartChef_Hackhazards25
+```  
 
-``` bash 
+2️⃣ **Frontend Setup (React)**  
+```bash
 npm install
 npm install socket.io-client
 npm run dev
-```
-3️⃣ **PHP + MySQL Setup**
+```  
 
-- Open XAMPP
-
-- Start Apache and MySQL
-
-- Import hack.sql into phpMyAdmin
-# 🐍 Flask and Fluvio Integration Guide  
-By **Impact DevOps* Team*
-
-## 📑 Table of Contents
-1. [⚙️ Prerequisites](#prerequisites)
-2. [🖥️ System Setup](#system-setup)
-3. [📦 Python Environment](#python-environment)
-4. [🚀 Fluvio Installation](#fluvio-installation)
-5. [🌐 Flask Application Setup](#flask-application-setup)
-6. [▶️ Running the System](#running-the-system)
-7. [🛠️ Troubleshooting](#troubleshooting)
-8. [📚 References](#references)
+3️⃣ **PHP + MySQL Setup**  
+- Open XAMPP  
+- Start Apache and MySQL  
+- Import `hack.sql` into phpMyAdmin  
 
 ---
 
-## ⚙️ Prerequisites
-- 🖥️ *Ubuntu/Linux environment*
-- 🔑 Terminal access with sudo privileges
-- 🐍 Python 3 installed
-- 🌐 Stable internet connection
+## 🐍 Flask and Fluvio Integration Guide  
+
+### 📑 Table of Contents  
+1. [⚙️ Prerequisites](#prerequisites)  
+2. [🖥️ System Setup](#system-setup)  
+3. [📦 Python Environment](#python-environment)  
+4. [🚀 Fluvio Installation](#fluvio-installation)  
+5. [🌐 Flask Application Setup](#flask-application-setup)  
+6. [▶️ Running the System](#running-the-system)  
+7. [🛠️ Troubleshooting](#troubleshooting)  
+8. [📚 References](#references)  
 
 ---
 
-## 🖥️ System Setup
+### ⚙️ Prerequisites  
+- 🖥️ **Ubuntu/Linux environment**  
+- 🔑 Terminal access with `sudo` privileges  
+- 🐍 Python 3 installed  
+- 🌐 Stable internet connection  
 
-### 🔄 Update Your System
-``` bash
+---
+
+### 🖥️ System Setup  
+
+#### 🔄 Update Your System  
+```bash
 sudo apt update && sudo apt upgrade -y
-```
+```  
 
-### 📦 Install Core Dependencies
-``` bash
-sudo apt install -y python3 pip install flask-socketio
- python3-pip python3-venv git curl build-essential
-```
+#### 📦 Install Core Dependencies  
+```bash
+sudo apt install -y python3 python3-pip python3-venv git curl build-essential
+```  
 
 ---
 
-## 📦 Python Environment
+### 📦 Python Environment  
 
-### 🛠️ Create Virtual Environment
-``` bash
+#### 🛠️ Create Virtual Environment  
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```  
 
-```
-### 📜 Install Required Packages
-``` bash
+#### 📜 Install Required Packages  
+```bash
 pip install flask flask-socketio flask-cors pandas mysql-connector-python prophet
-```
+```  
 
 ---
 
-## 🚀 Fluvio Installation
+### 🚀 Fluvio Installation  
 
-### 🛠️ Install Fluvio CLI
-``` bash
+#### 🛠️ Install Fluvio CLI  
+```bash
 curl -fsS https://hub.infinyon.cloud/install/install.sh | bash
-```
+```  
 
-#### Example Output:
-``` bash
-Installing fvm
-done: FVM installed successfully at /Users/your-user/.fvm
-...
-done: Now using fluvio version 0.16.1
-✅ Install complete!
-```
-
-### 🔗 Add Fluvio CLI to PATH
-``` bash
+#### 🔗 Add Fluvio CLI to PATH  
+```bash
 echo "export PATH=\"${HOME}/.fvm/bin:${HOME}/.fluvio/bin:\${PATH}\"" >> ~/.zshrc
 source ~/.zshrc
-```
+```  
 
-### 🦀 Setup Rust (Required by Fluvio)
-``` bash
+#### 🦀 Setup Rust (Required by Fluvio)  
+```bash
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```  
 
-```
-### 🛠️ Install SDF CLI
-``` bash
+#### 🛠️ Install SDF CLI  
+```bash
 fvm install sdf-beta9
-```
+```  
 
-### 🐍 Install Python Binding
-``` bash
+#### 🐍 Install Python Binding  
+```bash
 pip install fluvio
-```
+```  
 
-### ⚙️ Fluvio Setup & Topic Creation
-- *Delete Existing Cluster (if any):*
-``` bash
+#### ⚙️ Fluvio Setup & Topic Creation  
+- **Delete Existing Cluster (if any):**  
+```bash
 fluvio cluster delete
-```
-📝 Type local when asked to confirm.
+```  
+📝 *Type `local` when asked to confirm.*  
 
-- *Start Fluvio Cluster:*
+- **Start Fluvio Cluster:**  
 ```bash
 fluvio cluster start
-```
+```  
 
-#### Example Output:
-bash
-🎉 All checks passed!
-✅ Local Cluster initialized
-✅ 1 SPU launched
-🎯 Successfully installed Local Fluvio cluster
-
-
-- *Create Topic:*
-
-``` bash
+- **Create Topic:**  
+```bash
 fluvio topic create grain-predictions
-```
+```  
 
 ---
 
-## 🌐 Flask Application Setup
+### 🌐 Flask Application Setup  
 
-### 📂 Project Structure
-
-
-- Backend/PythonEngine/fluvio/MachineLearningModel.py
+#### 📂 Project Structure  
+```
 PythoEngine/
 ├── venv/
 ├── MachineLearningModel.py
-
-
----
-
-### ▶️ Run Flask App:
-
-```  bash
-python MachineLearningModel.py
-```
+```  
 
 ---
 
-## 🛠️ Troubleshooting
+### ▶️ Running the System  
 
-| ⚠️ *Issue*              | 🛠️ *Solution*                              |
-|---------------------------|-----------------------------------------------|
-| Fluvio cluster fails      | Run fluvio cluster delete then restart      |
-| Python import errors      | Reinstall requirements in virtual environment |
+#### 🚀 Start Fluvio:  
+```bash
+fluvio cluster start
+```  
 
----
-
-## 📚 References
-- 📖 [Fluvio Documentation](https://fluvio.io/docs/)
-- 📖 [Flask Documentation](https://flask.palletsprojects.com/)
-- 📖 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)
+#### ▶️ Run Flask App:  
+```bash
+python app.py
+```  
 
 ---
 
-Prepared with ❤️ by the **Impact DevOps* Team*
+## 🛠️ Troubleshooting  
 
+| ⚠️ **Issue**              | 🛠️ **Solution**                              |  
+|---------------------------|-----------------------------------------------|  
+| Fluvio cluster fails      | Run `fluvio cluster delete` then restart      |  
+| Python import errors      | Reinstall requirements in virtual environment |  
+
+---
+
+## 📚 References  
+- 📖 [Fluvio Documentation](https://fluvio.io/docs/)  
+- 📖 [Flask Documentation](https://flask.palletsprojects.com/)  
+- 📖 [Python Virtual Environments](https://docs.python.org/3/library/venv.html)  
+
+---
+
+*Prepared with ❤️ by the **Impact DevOps** Team*
